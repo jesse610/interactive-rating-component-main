@@ -16,7 +16,8 @@ main {
     font-family: 'Overpass';
 }
 
-.rating-container {
+.rating-container,
+.thank-you-container {
     width: 26rem;
     border: 1px solid;
     background-color: hsl(213, 19%, 18%);
@@ -32,7 +33,7 @@ main {
     color: hsl(217, 12%, 63%);
 }
 
-.thank-you-container {
+.remove {
     display: none;
 }
 
@@ -67,6 +68,13 @@ main {
     width: 3.5rem;
     height: 3.5rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+
+.number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
 }
 
 .btn-wrapper {
@@ -84,6 +92,38 @@ main {
     border: none;
     border-radius: 2rem;
     background-color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+.img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.selection-wrapper {
+    text-align: center;
+    padding: 1.8rem 0;
+    color: hsl(25, 97%, 53%);
+}
+
+.selection-wrapper span {
+    background-color: rgba(149, 158, 172, 0.065);
+    padding: .5rem .7rem;
+    border-radius: 2rem;
+}
+
+.thank-you-container h3,
+.thank-you-container p {
+    text-align: center;
+    color: white
+}
+
+.thank-you-container h3 {
+    font-size: 2rem;
+}
+
+.active {
+    background-color: hsl(216, 12%, 54%);
 }
 
 /* footer */
@@ -96,7 +136,8 @@ main {
 
 /* media query */
 @media  screen and (max-width: 450px) {
-    .rating-container {
+    .rating-container,
+    .thank-you-container {
         max-width: 90%;
     }
 

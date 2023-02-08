@@ -4,11 +4,17 @@
 
 body {
     margin: 0;
-    background-color: hsl(216, 12%, 8%)
+    padding: 0;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+}
+html {
+    margin: 0;
+    padding: 0;
 }
 
 main {
-    min-height: 98vh;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,9 +165,9 @@ main {
 /* media query */
 @media  screen and (max-width: 450px) {
 
-    main {
-        min-height: 90vh;
-    }
+    /* main {
+        min-height: 80vh;
+    } */
 
     .rating-container,
     .thank-you-container {

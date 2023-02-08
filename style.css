@@ -30,10 +30,6 @@ main {
     font-size: 1.5rem;
 }
 
-.rating-container p {
-    color: hsl(217, 12%, 63%);
-}
-
 .remove {
     display: none;
 }
@@ -96,6 +92,11 @@ main {
     cursor: pointer;
 }
 
+.btn-wrapper button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%)
+}
+
 .img-wrapper {
     display: flex;
     justify-content: center;
@@ -116,11 +117,7 @@ main {
 .thank-you-container h3,
 .thank-you-container p {
     text-align: center;
-    color: white
-}
-
-.thank-you-container p {
-    color: hsl(217, 12%, 63%)
+    color: white;
 }
 
 .thank-you-container h3 {
@@ -128,8 +125,15 @@ main {
     margin: 1rem 0;
 }
 
+.rating-container p,
+.thank-you-container p {
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5rem;
+}
+
 .active {
     background-color: hsl(216, 12%, 54%);
+    color: white;
 }
 
 .error-wrapper {

@@ -93,3 +93,15 @@ main {
 .attribution a { 
     color: hsl(228, 45%, 44%); 
 }
+
+/* media query */
+@media  screen and (max-width: 450px) {
+    .rating-container {
+        max-width: 90%;
+    }
+
+    .number {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+}

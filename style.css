@@ -27,6 +27,7 @@ main {
 
 .rating-container h1 {
     color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
 }
 
 .rating-container p {
@@ -102,7 +103,7 @@ main {
 
 .selection-wrapper {
     text-align: center;
-    padding: 1.8rem 0;
+    margin: 1.8rem 0;
     color: hsl(25, 97%, 53%);
 }
 
@@ -120,14 +121,27 @@ main {
 
 .thank-you-container h3 {
     font-size: 2rem;
+    margin: 1rem 0;
 }
 
 .active {
     background-color: hsl(216, 12%, 54%);
 }
 
+.error-wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#error {
+    text-align: center;
+    color: red;
+}
+
 /* footer */
 .attribution { 
+    color: white;
     font-size: 11px; text-align: center; 
 }
 .attribution a { 

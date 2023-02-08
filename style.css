@@ -159,10 +159,6 @@ main {
 /* media query */
 @media  screen and (max-width: 450px) {
 
-    main {
-        min-height: 90vh;
-    }
-
     .rating-container,
     .thank-you-container {
         max-width: 90%;

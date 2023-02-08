@@ -15,9 +15,13 @@
 </head>
 <body>
   <main>
-    <section class="rating-container">
+    <section class="rating-container ">
       <div class="star-container">
         <img id="star-icon" src="./images/icon-star.svg" alt="">
+      </div>
+
+      <div class="error-wrapper">
+        <span id="error"></span>
       </div>
 
       <div class="text-wrapper">
@@ -29,24 +33,25 @@
       </div>
 
       <div class="numbers-wrapper">
-        <button class="number">1</button>
-        <button class="number">2</button>
-        <button class="number">3</button>
-        <button class="number">4</button>
-        <button class="number">5</button>
+        <button class="number" value="1">1</button>
+        <button class="number" value="2">2</button>
+        <button class="number" value="3">3</button>
+        <button class="number" value="4">4</button>
+        <button class="number" value="5">5</button>
       </div>
 
       <div class="btn-wrapper">
-        <button>SUBMIT</button>
+        <button id="submit-btn">SUBMIT</button>
       </div>
     </section>
 
-    <section class="thank-you-container">
+    <section class="thank-you-container remove">
       <div class="img-wrapper">
         <img src="./images/illustration-thank-you.svg" alt="">
       </div>
-      <div>
-        <span>You selected <!-- Add rating here --> out of 5</span>
+
+      <div class="selection-wrapper">
+        <span id="selection">You selected <!-- Add rating here --> out of 5</span>
       </div>
 
     <h3>Thank you!</h3>

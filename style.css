@@ -119,6 +119,10 @@ main {
     color: white
 }
 
+.thank-you-container p {
+    color: hsl(217, 12%, 63%)
+}
+
 .thank-you-container h3 {
     font-size: 2rem;
     margin: 1rem 0;

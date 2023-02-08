@@ -23,12 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/jesse610/interactive-rating-component-main](https://your-solution-url.com)
+- Live Site URL: [https://interactive-ratingsurvey.netlify.app/](https://your-live-site-url.com)
 
 ## My process
 

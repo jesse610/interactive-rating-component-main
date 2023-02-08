@@ -14,7 +14,7 @@ html {
 }
 
 main {
-    min-height: 100vh;
+    max-height: 99vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,6 +154,10 @@ main {
 }
 
 /* footer */
+footer {
+    max-height: 1vh;
+}
+
 .attribution { 
     color: white;
     font-size: 11px; text-align: center; 
@@ -165,9 +169,9 @@ main {
 /* media query */
 @media  screen and (max-width: 450px) {
 
-    /* main {
+    main {
         min-height: 80vh;
-    } */
+    }
 
     .rating-container,
     .thank-you-container {

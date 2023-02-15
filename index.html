@@ -34,15 +34,39 @@
       </div>
 
       <div class="numbers-wrapper">
-        <button class="number" value="1">1</button>
-        <button class="number" value="2">2</button>
-        <button class="number" value="3">3</button>
-        <button class="number" value="4">4</button>
-        <button class="number" value="5">5</button>
-      </div>
+        <form id="form">
+          <fieldset>
+            <legend>Choose an input:</legend>
+              <div class="number">
+                  <input class="number-inputs" id="one" type="radio" name="rating" value="1">
+                  <label class="number-label" for="one">1</label>
+              </div>
 
-      <div class="btn-wrapper">
-        <button id="submit-btn">SUBMIT</button>
+              <div class="number">
+                  <input class="number-inputs" id="two" type="radio" class="" name="rating" value="2">
+                  <label class="number-label" for="two">2</label>              
+              </div>
+
+              <div class="number">              
+                  <input class="number-inputs" id="three" type="radio" class="" name="rating" value="3">
+                  <label class="number-label" for="three">3</label>               
+              </div>
+
+              <div class="number">                
+                  <input class="number-inputs" id="four" type="radio" class="" name="rating" value="4">
+                  <label class="number-label" for="four">4</label>             
+              </div>
+
+              <div class="number">             
+                  <input class="number-inputs" id="five" type="radio" class="" name="rating" value="5">
+                  <label class="number-label" for="five">5</label>
+              </div>
+          </fieldset>
+
+        <div class="btn-wrapper">
+          <input type="submit" id="submit-btn"></input>
+        </div>
+      </form>
       </div>
     </section>
 
@@ -52,7 +76,7 @@
       </div>
 
       <div class="selection-wrapper">
-        <span id="selection">You selected <!-- Add rating here --> out of 5</span>
+        <span id="selection"></span>
       </div>
 
     <h3>Thank you!</h3>

@@ -188,6 +188,9 @@ input[type="radio"] {
 
 /* media query */
 @media  screen and (max-width: 450px) {
+    #submit-btn {
+        height: 3rem;
+    }
 
     .rating-container,
     .thank-you-container {
